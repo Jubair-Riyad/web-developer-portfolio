@@ -51,10 +51,15 @@ nav a{
     background-color: #fff8f3;
 }
 .banner{
-    padding: 30px 30px 30px 200px;
+    padding: 30px 30px 0px 200px;
     display: flex;
     align-items: center;
+    background-image: url('../images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    justify-content: space-between;
 }
+
 
 .btn-contact{
     color: #fd6e0a;
@@ -68,4 +73,39 @@ nav a{
 }
 .pp{
     width: 500px;
+}
+.banner-greeting{
+    font-size: 45px;
+    margin-bottom: 0px;
+}
+.banner-title{
+    font-size: 85px;
+    font-weight: 700px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+.banner-description{
+    width: 585px;
+}
+
+/*Main section start*/
+
+/*About section*/
+.about{
+    padding: 130px;
+    border-radius: 10px;
+    background-color: #fff8f3;
+    margin: 130px 0px;
+}
+
+.section-title{
+    color: black;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+}
+.section-description{
+    color: gray;
+    text-align: center;
+    font-size: 18px;
 }
