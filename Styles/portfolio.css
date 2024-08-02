@@ -11,7 +11,8 @@ body{
 nav{
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
+    margin: 0px 200px;
 }
 .nav-title{
     color: black;
@@ -25,7 +26,7 @@ nav{
     color: white;
     background-color: #fd6e0a;
     font-weight: 700;
-    border: none;
+    border:none;
     border-radius: 5px;
     padding: 15px 35px;
 
@@ -43,4 +44,28 @@ nav li{
 nav a{
     text-decoration: none;
     color: black;
+}
+
+/*Header*/
+.head-bc{
+    background-color: #fff8f3;
+}
+.banner{
+    padding: 30px 30px 30px 200px;
+    display: flex;
+    align-items: center;
+}
+
+.btn-contact{
+    color: #fd6e0a;
+    background-color: white;
+    font-weight: 700;
+    border-radius: 5px;
+    border-color:#fd6e0a ;
+    border-style: solid;
+    padding: 15px 35px;
+
+}
+.pp{
+    width: 500px;
 }
