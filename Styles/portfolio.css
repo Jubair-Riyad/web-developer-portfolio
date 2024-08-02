@@ -86,9 +86,15 @@ nav a{
 }
 .banner-description{
     width: 585px;
+    color: gr;
 }
 
 /*Main section start*/
+
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
 
 /*About section*/
 .about{
@@ -108,4 +114,12 @@ nav a{
     color: gray;
     text-align: center;
     font-size: 18px;
+}
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+.info-description{
+    font-size: bold;
 }
