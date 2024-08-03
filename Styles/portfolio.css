@@ -54,6 +54,10 @@ nav a{
 /*Header*/
 .head-bc{
     background-color: #fff8f3;
+    background-image: url('../images/developer.png');
+    background-position: center left;
+    background-repeat: no-repeat;
+    padding: 20px 0px;
 }
 .banner{
     padding: 30px 30px 0px 200px;
@@ -61,7 +65,7 @@ nav a{
     align-items: center;
     background-image: url('../images/header_bg.png');
     background-repeat: no-repeat;
-    background-position: bottom right;
+    background-position: bottom right, bottom left;
     justify-content: space-between;
 }
 
