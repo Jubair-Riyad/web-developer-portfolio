@@ -8,6 +8,10 @@ body{
   background-color: whitesmoke;
 }
 
+main section{
+    margin-top: 130px;
+}
+
 /*Navbar*/
 nav{
     display: flex;
@@ -150,4 +154,51 @@ main{
 .icon-description{
     color: gray;
     font-size: 16px;
+}
+/*Sumary*/
+
+.summary-head{
+    display: flex;
+    padding: 10px;
+    margin: 10px;
+}
+.smr-ttl{
+    color:#474747;
+    font-size: 30px;
+}
+.edu-exp{
+    color:#474747;
+    font-size: 25px;
+}
+.uni-cpny{
+    color:gray;
+    font-size: 20px;
+}
+.knw-dsp{
+    color: gray;
+    font-size: 16px;
+    padding-bottom: 15px;
+}
+/* .layout{
+    width: 511px;
+    height: 175px;
+    padding: 10px 10px 10px 0px;
+    margin: 10px 10px 10px 0px;
+} */
+#second-colum{
+    margin-left: 20px;
+}
+.btn-download{
+    text-align: center;
+    margin-top: 50px;
+}
+.btn-d{
+    color: white;
+    background-color: #fd6e0a;
+    font-size: 20px;
+    font-weight: 700;
+    border:none;
+    border-radius: 5px;
+    width: 200px;
+    height: 64px;
 }
