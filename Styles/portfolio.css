@@ -5,6 +5,7 @@ body{
   font-weight: weight;
   font-style: normal;
   font-variation-settings:width 100;
+  background-color: whitesmoke;
 }
 
 /*Navbar*/
@@ -103,6 +104,11 @@ main{
     background-color: #fff8f3;
     margin: 130px 0px;
 }
+.about-background{
+    background-color: white;
+    border: solid black 1px;
+    width: 827px;
+}
 
 .section-title{
     color: black;
@@ -120,6 +126,28 @@ main{
     justify-content: space-around;
     text-align: center;
 }
-.info-description{
-    font-size: bold;
+/*What I do*/
+#i-do-desctiption{
+    width: 909px;  
+    padding-left: 110px;
+}
+.i-do-icon{
+    display: flex;
+}
+.icon-head{
+    background-color: white;
+    margin: 10px;
+    padding: 25px;
+    border-radius: 5px;
+}
+.icon{
+    width: 44px;
+    padding-bottom: 10px;
+}
+.icon-title{
+    font-size: 20px;
+}
+.icon-description{
+    color: gray;
+    font-size: 16px;
 }
