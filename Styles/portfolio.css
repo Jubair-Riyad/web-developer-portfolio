@@ -199,3 +199,57 @@ main{
     width: 200px;
     height: 64px;
 }
+
+/*Footer*/
+.foot-bg{
+    background-color: #FFF8F3;
+    margin-top: 80px;
+}
+.foot-title{
+    font-size: 35px;
+}
+.fot-clm{
+    display: flex;
+}
+.btn-sub{
+    color: white;
+    background-color: #fd6e0a;
+    font-size: 20px;
+    font-weight: 700;
+    border:none;
+    border-radius: 5px;
+    width: 150px;
+    height: 64px;
+    margin-top: 20px;
+}
+.foot-des{
+    
+    color: #474747;
+}
+.foot-clm-one{
+    width: 562px;
+    margin-left: 400px;
+}
+.sc-icon{
+    padding: 0px 5px;
+}
+.foot-clm-two{
+    margin-left: 50px;
+}
+input, textarea{
+    display: block;
+    margin-bottom: 25px;
+    border: none;
+    background-color: white;
+    width: 461px;
+    font-size: 16px;
+    color: #474747;
+    padding: 15px 25px;
+    
+}
+.inp{
+    height: 64px;
+}
+#message{
+    height: 180px;
+}
